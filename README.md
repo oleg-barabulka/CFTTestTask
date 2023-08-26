@@ -24,5 +24,6 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+- Команда для запуска: mvn compile exec:java -Dexec.mainClass="org.example.Main" -Dexec.args="Параметры запуска"
 # Примечания
 Ошибочные данные пропускаются, числа не влезающие в int считаются ошибочными и также пропускаются.
